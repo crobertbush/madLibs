@@ -1,0 +1,9 @@
+body {background: linear-gradient(90deg, blue, white, red);}
+
+h1 {font-family: monospace;}
+
+p {font-family: monospace}
+
+.text-inputs, .story, h1 {text-align: center;}
+
+
