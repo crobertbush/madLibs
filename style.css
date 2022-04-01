@@ -1,9 +1,19 @@
-body {background: linear-gradient(90deg, blue, white, red);}
+body {
+    background: linear-gradient(90deg, blue, white, red);
+}
 
-h1 {font-family: monospace;}
+h1, p {
+    font-family: monospace;
+}
 
-p {font-family: monospace}
+.text-inputs, .story, h1 {
+    text-align: center;
+}
 
-.text-inputs, .story, h1 {text-align: center;}
+hr {
+    margin-bottom: 20px;
+}
 
-hr {margin-bottom: 20px;}
+/* @media {
+
+} */
