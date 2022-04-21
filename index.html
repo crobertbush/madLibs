@@ -21,34 +21,40 @@
 <hr>
 
 <div class="text-inputs">
+    
     <form action="">
-        <input type="text" placeholder="plural noun" required>
-        <input type="text" placeholder="occupation"required>    
-        <input type="text" placeholder="a place" required>
-        <input type="text" placeholder="number" required>
-        <input type="text" placeholder="adjective" required>
-        <input type="text" placeholder="verb ending in ing" required>
-        <input type="text" placeholder="plural noun" required>
-        <input type="text" placeholder="a place" required>
-        <input type="text" placeholder="adjective" required>
-        <input type="text" placeholder="plural noun" required>
-        <input type="text" placeholder="verb ending in ing" required>
-        <input type="text" placeholder="plural noun" required>
-        <input type="text" placeholder="adjective" required>
-        <input type="text" placeholder="noun" required>
-        <input type="text" placeholder="a part of the body"required>
-        <input type="text" placeholder="verb" required>
-        <input type="text" placeholder="adjective" required>
-        <input type="text" placeholder="a part of the body" required>
+        <input type="text" placeholder="plural noun" id="word1" required>
+        <input type="text" placeholder="occupation" id="word2" required>    
+        <input type="text" placeholder="a place" id="word3" required>
+        <input type="text" placeholder="number" id="word4" required>
+        <input type="text" placeholder="adjective" id="word5" required>
+        <input type="text" placeholder="verb ending in ing" id="word6" required>
+        <input type="text" placeholder="plural noun" id="word7" required>
+        <input type="text" placeholder="a place" id="word8" required>
+        <input type="text" placeholder="adjective" id="word9" required>
+        <input type="text" placeholder="plural noun" id="word10" required>
+        <input type="text" placeholder="verb ending in ing" id="word11" required>
+        <input type="text" placeholder="plural noun" id="word12" required>
+        <input type="text" placeholder="adjective" id="word13" required>
+        <input type="text" placeholder="noun" id="word14" required>
+        <input type="text" placeholder="a part of the body" id="word15" required>
+        <input type="text" placeholder="verb" id="word16" required>
+        <input type="text" placeholder="adjective" id="word17" required>
+        <input type="text" placeholder="a part of the body" id="word18" required>
     </form>
+
+    <div id="answer"></div>
+
 </div>
 
 <br><br>
 
-</div class="button">
-    <button>Submit</button>
-<div>
 
+</div class="button">
+    <button onclick="createParagraph()">Submit</button>
+</form>
+
+<div>
 <div class="story">
     <p>
     Hello, my fellow (blank) in 2020, it's me, <u><strong>George Washington</strong></u>, the first (blank).
@@ -64,5 +70,6 @@
     </p>
 </div>
 
+<script src="./app.js"></script>
 </body>
 </html>
