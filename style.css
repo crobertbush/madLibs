@@ -2,10 +2,6 @@ body {
     background: linear-gradient(90deg, blue, white, red);
 }
 
-h1, p, #answer{
-    font-family: "Lavishly Yours";
-}
-
 form, .story, h1 {
     text-align: center;
 }
@@ -25,10 +21,8 @@ box-shadow: 0rem 1rem 1.5rem rgba(0, 0, 0, 0.19), 0 0.5rem 0.5rem rgba(0, 0, 0, 
 line-height: 4.5rem;
 }
 
-button{
+.button{
     text-align: center;
-    margin-left: 15.3em;
-    margin-bottom: 30px;
     }
 
 button:hover{
